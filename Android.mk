@@ -56,6 +56,7 @@ LOCAL_C_INCLUDES := frameworks/native/include/media/openmax
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE_TARGET_ARCH = arm
 LOCAL_SRC_FILES := minimedia.cpp
 LOCAL_C_INCLUDES := frameworks/av/services/camera/libcameraservice \
                     frameworks/av/media/libmediaplayerservice \
